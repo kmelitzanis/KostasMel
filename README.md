@@ -1,10 +1,10 @@
-### Hi, I'm Kostas Mel 👋
+### Hi, I'm Kostas Melitzanis 👋
 
 🎓 Computer Engineering Graduate | University of Thessaly
 
 💻 Tech Enthusiast & Creative Mind
 
-📫 How to reach me: kostasmel117@outlook.com
+📫 How to reach me: kmelitzanis@outlook.com
 
 
 ### Technical Expertise
