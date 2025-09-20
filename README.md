@@ -1,10 +1,11 @@
-### Hi, I'm Kostas Melitzanis 👋
+### Hi, I'm Kostas Mel 👋
 
 🎓 Computer Engineering Graduate | University of Thessaly
 
 💻 Tech Enthusiast & Creative Mind
 
-📫 How to reach me: kmelitzanis@outlook.com
+📫 How to reach me: kostasmel117@outlook.com
+
 
 ### Technical Expertise
 ![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D?logo=vuedotjs&style=for-the-badge&logoColor=%234FC08D)
@@ -20,3 +21,21 @@
 ![MySQL](https://img.shields.io/badge/mysql-%234479A1?logo=mysql&style=for-the-badge&logoColor=%23fff)
 
 ### Creative Purs
+- Music Composition & Production
+- Professional Drumming
+- DJ Performance
+- Digital Audio Engineering
+
+### Tech Interests 🚀
+- Full-stack Development
+- Web Technologies
+- Emerging Trends in Software Engineering
+- Technology Innovation
+
+### Gaming Enthusiast 🎮
+- Competitive Gaming
+- Game Development Interest
+- Esports Community Participation
+
+### Let's Connect! 🌐
+Feel free to reach out for collaborations, tech discussions, or creative projects!
