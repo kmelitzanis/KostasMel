@@ -1,18 +1,22 @@
-### Hi, I’m @KostasMel 👋
+### Hi, I'm Kostas Melitzanis 👋
 
-- 📫 How to reach me: kostasmel117@outlook.com
+🎓 Computer Engineering Graduate | University of Thessaly
 
-### My Hobbies: 
-- Playing video Games
-- Listening to Music
-- Playing Drums
-- Playing Music As a DJ
-- Producing Music
+💻 Tech Enthusiast & Creative Mind
 
-## Building With
-![Javascript](https://img.shields.io/badge/JAVASCRIPT-%23F7DF1E?logo=javascript&style=for-the-badge&logoColor=%23000)
+📫 How to reach me: kmelitzanis@outlook.com
+
+### Technical Expertise
+![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D?logo=vuedotjs&style=for-the-badge&logoColor=%234FC08D)
+![JavaScript](https://img.shields.io/badge/JAVASCRIPT-%23F7DF1E?logo=javascript&style=for-the-badge&logoColor=%23000)
+![Ruby On Rails](https://img.shields.io/badge/Ruby_on_Rails-%23CC342D?logo=rubyonrails&style=for-the-badge&logoColor=%23white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC?logo=tailwindcss&style=for-the-badge&logoColor=%2338B2AC)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&style=for-the-badge&logoColor=white)
 ![Sass](https://img.shields.io/badge/sass-%23CC6699?logo=sass&style=for-the-badge&logoColor=%23fff)
 
 ## Worked With
-![php](https://img.shields.io/badge/PHP-%23777BB4?logo=php&style=for-the-badge&logoColor=%23fff)
-![MYSQL](https://img.shields.io/badge/mysql-%234479A1?logo=mysql&style=for-the-badge&logoColor=%23fff)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC?logo=typescript&style=for-the-badge&logoColor=%23007ACC)
+![PHP](https://img.shields.io/badge/PHP-%23777BB4?logo=php&style=for-the-badge&logoColor=%23fff)
+![MySQL](https://img.shields.io/badge/mysql-%234479A1?logo=mysql&style=for-the-badge&logoColor=%23fff)
+
+### Creative Purs
