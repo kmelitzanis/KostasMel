@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SonoVis - Audio Spectrum Analyzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Custom Title Bar -->
+  <div class="title-bar">
+    <div class="title-bar-left">
+      <div class="app-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+      </div>
+      <span class="app-title">SonoVis</span>
+    </div>
+    <div class="title-bar-right">
+      <button class="title-bar-button" id="minimize-btn">
+        <svg width="12" height="12" viewBox="0 0 12 12">
+          <line x1="0" y1="6" x2="12" y2="6" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+      <button class="title-bar-button" id="maximize-btn">
+        <svg width="12" height="12" viewBox="0 0 12 12">
+          <rect x="1" y="1" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+      <button class="title-bar-button close" id="close-btn">
+        <svg width="12" height="12" viewBox="0 0 12 12">
+          <line x1="1" y1="1" x2="11" y2="11" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="11" y1="1" x2="1" y2="11" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Drop Zone -->
+    <div id="drop-zone" class="drop-zone">
+      <div class="drop-zone-content">
+        <div class="drop-icon">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+        </div>
+        <h2>Drop Audio File Here</h2>
+        <p>or</p>
+        <button id="select-file-btn" class="primary-button">Select File</button>
+        <p class="supported-formats">Supported: MP3, FLAC, WAV, M4A, AAC, OGG</p>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="main-content hidden">
+      <!-- Control Panel -->
+      <div class="control-panel">
+        <div class="file-info">
+          <div class="file-name" id="file-name">No file loaded</div>
+          <div class="file-details" id="file-details"></div>
+        </div>
+        <div class="controls">
+          <button id="play-pause-btn" class="control-btn">
+            <svg id="play-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <svg id="pause-icon" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="hidden">
+              <rect x="6" y="4" width="4" height="16"></rect>
+              <rect x="14" y="4" width="4" height="16"></rect>
+            </svg>
+          </button>
+          <button id="change-file-btn" class="control-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="1 4 1 10 7 10"></polyline>
+              <polyline points="23 20 23 14 17 14"></polyline>
+              <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Spectrum Visualizer -->
+      <div class="spectrum-container">
+        <canvas id="spectrum-canvas"></canvas>
+      </div>
+
+      <!-- Waveform -->
+      <div class="waveform-container">
+        <canvas id="waveform-canvas"></canvas>
+        <div class="playhead" id="playhead"></div>
+      </div>
+
+      <!-- Frequency Analysis -->
+      <div class="analysis-panel">
+        <div class="analysis-item">
+          <span class="label">Peak Frequency</span>
+          <span class="value" id="peak-freq">--</span>
+        </div>
+        <div class="analysis-item">
+          <span class="label">Average Level</span>
+          <span class="value" id="avg-level">--</span>
+        </div>
+        <div class="analysis-item">
+          <span class="label">Duration</span>
+          <span class="value" id="duration">--</span>
+        </div>
+        <div class="analysis-item">
+          <span class="label">Sample Rate</span>
+          <span class="value" id="sample-rate">--</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
