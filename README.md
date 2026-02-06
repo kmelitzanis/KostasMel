@@ -1,10 +1,10 @@
-# SonoVis - Audio Spectrum Analyzer 🎵
+# AudiScope - Audio Spectrum Analyzer 🎵
 
-![SonoVis](https://img.shields.io/badge/SonoVis-Audio%20Analyzer-00d4ff?style=for-the-badge)
+![AudiScope](https://img.shields.io/badge/AudiScope-Audio%20Analyzer-00d4ff?style=for-the-badge)
 ![Electron](https://img.shields.io/badge/Electron-Framework-47848F?style=for-the-badge&logo=electron)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**SonoVis** (Latin: *Sonus* = Sound, *Visio* = Vision) - A modern, minimal audio spectrum analyzer built with Electron. Visualize the audio spectrum of your music files to analyze quality, frequencies, and more. Inspired by Spek and designed with a Serato DJ-like minimal interface.
+**AudiScope** - A modern, minimal audio spectrum analyzer built with Electron. Visualize the audio spectrum of your music files to analyze quality, frequencies, and more. Inspired by Spek and designed with a Serato DJ-like minimal interface.
 
 ## ✨ Features
 
@@ -43,7 +43,7 @@ npm start
 
 ## 🎯 Usage
 
-1. **Launch SonoVis** - Start the application
+1. **Launch AudiScope** - Start the application
 2. **Load Audio File** - Either:
    - Click "Select File" button
    - Drag and drop an audio file into the window

@@ -1,7 +1,7 @@
 {
-  "name": "sonovis",
+  "name": "audiscope",
   "version": "1.0.0",
-  "description": "SonoVis - Audio Spectrum Analyzer (Latin: Sound Vision)",
+  "description": "AudiScope - Audio Spectrum Analyzer",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
